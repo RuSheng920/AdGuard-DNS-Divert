@@ -37,19 +37,16 @@ jobs:
           mkdir -p config dist
 
           # 生成国内 DNS 服务器文件（DoH 格式，适配 AdGuard Home）
+          # 改用 echo 逐行写入，避免 Here Document 缩进问题
           if [ ! -f config/cn_dns.txt ]; then
-            cat > config/cn_dns.txt <<EOF
-https://doh.pub/dns-query
-https://dns.alidns.com/dns-query
-EOF
+            echo "https://doh.pub/dns-query" > config/cn_dns.txt
+            echo "https://dns.alidns.com/dns-query" >> config/cn_dns.txt
           fi
 
           # 生成国外 DNS 服务器文件（DoH 格式，适配 AdGuard Home）
           if [ ! -f config/foreign_dns.txt ]; then
-            cat > config/foreign_dns.txt <<EOF
-https://1.1.1.1/dns-query
-https://8.8.8.8/dns-query
-EOF
+            echo "https://1.1.1.1/dns-query" > config/foreign_dns.txt
+            echo "https://8.8.8.8/dns-query" >> config/foreign_dns.txt
           fi
 
           # 创建自定义域名文件（空文件兜底）
