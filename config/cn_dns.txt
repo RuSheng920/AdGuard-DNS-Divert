@@ -1,3 +1,6 @@
 https://dns.alidns.com/dns-query
+quic://dns.alidns.com:853
+h3://dns.alidns.com/dns-query
+https://doh.pub/dns-query
 https://doh.360.cn/dns-query
 https://1.12.12.12/dns-query
