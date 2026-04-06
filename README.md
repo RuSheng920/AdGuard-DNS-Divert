@@ -1,6 +1,6 @@
 # AdGuard DNS Divert
 
-AdGuard DNS Divert 项目为 [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) 用户提供的一套**基于域名分类分流国内外 DNS**的轻量级方案，提升访问速度、保护隐私，并优化解析体验。
+（自用）AdGuard DNS Divert 项目为 [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) 用户提供的一套**基于域名分类分流国内外 DNS**的轻量级方案，提升访问速度、保护隐私，并优化解析体验。
 
 The AdGuard DNS Divert project provides a lightweight solution for [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) users to **automatically route DNS queries based on domain categorization (domestic/foreign)**, improving speed, privacy, and DNS resolution efficiency.
 
