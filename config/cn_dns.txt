@@ -1,5 +1,6 @@
+tcp://58.20.127.170
+tcp://58.20.127.238
 https://dns.alidns.com/dns-query
-quic://dns.alidns.com:853
 h3://dns.alidns.com/dns-query
 https://doh.pub/dns-query
 https://doh.360.cn/dns-query
