@@ -1,9 +1,9 @@
-https://dns.cloudflare.com/dns-query
-https://cloudflare-dns.com/dns-query
-https://dns.google/dns-query
 https://dns.quad9.net/dns-query
 https://dns9.quad9.net/dns-query
+https://cloudflare-dns.com/dns-query
+https://dns.cloudflare.com/dns-query
 https://doh.dns.sb/dns-query
-https://wikimedia-dns.org:443/dns-query
-tls://8e918b.dns.nextdns.io
 quic://8e918b.dns.nextdns.io
+tls://8e918b.dns.nextdns.io
+https://dns.google/dns-query
+https://wikimedia-dns.org:443/dns-query
