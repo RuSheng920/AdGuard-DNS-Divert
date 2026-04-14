@@ -1,4 +1,4 @@
-# QuanX proxy规则（合并后共23870条）
+# QuanX proxy规则（合并后共23871条）
 # 最后更新: domain_to_quanx.py 自动生成
 
 host-suffix, 000webhost.com, proxy
@@ -18039,6 +18039,7 @@ host-suffix, runwayescorts.com, proxy
 host-suffix, rupress.org, proxy
 host-suffix, rus.ec, proxy
 host-suffix, rushbee.com, proxy
+host-suffix, rusheng.top, proxy
 host-suffix, rushporn.online, proxy
 host-suffix, rushporn.xxx, proxy
 host-suffix, russianrape.org, proxy
