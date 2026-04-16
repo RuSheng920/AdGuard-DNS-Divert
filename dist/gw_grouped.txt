@@ -1,23 +1,30 @@
 # AdGuard Home DNS 分流配置 - 黑名单模式
-# 自动生成于 2026-04-16 09:44:01
+# 自动生成于 2026-04-16 09:49:45
 # 黑名单模式：命中国外域名走国外DNS，其他走国内DNS
 # 包含自定义域名DNS规则
 
 # 默认上游DNS服务器（国内）
 tcp://1.2.4.8
-tcp://180.184.1.1
-https://1.12.12.12/dns-query
-tcp://58.20.127.238
-tcp://58.20.127.170
-https://doh.pub/dns-query
-tcp://114.114.115.115
-tcp://114.114.114.114
 tcp://223.5.5.5
 tcp://223.6.6.6
-https://doh.360.cn/dns-query
+tcp://180.184.1.1
+tcp://117.50.10.10
+tcp://119.29.29.29
+tcp://58.20.127.238
+tcp://58.20.127.170
+tcp://182.254.116.116
+tcp://114.114.115.115
+tcp://114.114.114.114
+quic://dot.pub:853
+quic://doh.360.cn:853
 quic://dns.alidns.com:853
 h3://dns.alidns.com/dns-query
+https://doh.pub/dns-query
+https://doh.360.cn/dns-query
+https://1.12.12.12/dns-query
+https://doh.114dns.com/dns-query
 https://dns.alidns.com/dns-query
+https://doh.bytednsdoc.com/dns-query
 
 #==================================================
 # 自定义域名DNS规则（分组合并输出）
