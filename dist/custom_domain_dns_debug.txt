@@ -10,6 +10,7 @@
 *.baidubce.com: 180.76.76.76
 *.baidubos.com: 180.76.76.76
 *.baidubox.com: 180.76.76.76
+*.coolapk.com: https://dns.alidns.com/dns-query, https://doh.pub/dns-query
 *.hao123.com: 180.76.76.76
 *.itravelqq.com: https://doh.pub/dns-query
 *.ku6.com: https://dns.alidns.com/dns-query
@@ -36,6 +37,7 @@ baidubos.com: 180.76.76.76
 baidubox.com: 180.76.76.76
 bce.baidu.com: 180.76.76.76
 bing.com: https://dns.alidns.com/dns-query, https://doh.360.cn/dns-query
+coolapk.com: https://dns.alidns.com/dns-query, https://doh.pub/dns-query
 foxmail.com.cn: https://doh.pub/dns-query
 hao123.com: 180.76.76.76
 im.qq.com: https://doh.pub/dns-query
