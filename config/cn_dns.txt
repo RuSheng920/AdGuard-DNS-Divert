@@ -4,6 +4,8 @@ tcp://223.6.6.6
 tcp://180.184.1.1
 tcp://117.50.10.10
 tcp://119.29.29.29
+tcp://43.239.172.212
+tcp://43.239.172.214
 tcp://58.20.127.238
 tcp://58.20.127.170
 tcp://182.254.116.116
@@ -16,6 +18,7 @@ h3://dns.alidns.com/dns-query
 https://doh.pub/dns-query
 https://doh.360.cn/dns-query
 https://1.12.12.12/dns-query
+https://120.53.53.53/dns-query
 https://doh.114dns.com/dns-query
 https://dns.alidns.com/dns-query
 https://doh.bytednsdoc.com/dns-query
